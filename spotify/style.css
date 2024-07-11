@@ -1,0 +1,280 @@
+* {
+    margin: 0;
+    color: white;
+}
+
+body {
+    background-color: black;
+}
+
+.container {
+    height: 100vh;
+}
+
+.spotify {
+    display: flex;
+}
+
+.right {
+    /* border: 1px solid red; */
+    width: 80%;
+}
+
+.left {
+    /* border: 1px solid blue; */
+    width: 20%;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.create-palylist::-webkit-scrollbar,
+.mainMind::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.create-palylist .mainMind {
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+}
+
+
+/* left section */
+.logo-section a {
+    text-decoration: none;
+    margin: 15px;
+}
+
+.logo-section {
+    margin: 8px;
+    padding: 15px;
+    height: 170px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(33, 32, 32);
+    border-radius: 15px;
+}
+.bx-home,
+.bx-search-alt,
+.bx-library,
+.bx-plus {
+    font-size: 30px;
+    margin-right: 5px;
+}
+
+.bx-plus {
+    float: right;
+}
+
+.livrary-section {
+    margin: 8px;
+    padding: 10px;
+    background-color: rgb(33, 32, 32);
+    border-radius: 15px;
+}
+
+.create-palylist {
+    line-height: 25px;
+    margin: 25px 0px;
+    height: 200px;
+    overflow-y: scroll;
+}
+
+.playlist {
+    border-radius: 10px;
+    margin: 20px 0px;
+    background-color: rgb(45, 44, 44);
+    padding: 15px;
+}
+
+.brouse-product {
+    border-radius: 10px;
+    margin: 0px 0px 15;
+    background-color: rgb(45, 44, 44);
+    padding: 15px;
+}
+
+.left-foot a {
+    text-decoration: none;
+}
+
+.left-foot {
+    line-height: 35px;
+    font-size: small;
+}
+
+.left .lbtn {
+    color: black;
+    border-radius: 20px;
+    padding: 8px 15px;
+    font-weight: bolder;
+    margin-top: 15px;
+}
+
+.bx-globe {
+    color: black;
+    font-size: 20px;
+}
+
+/* navbar section */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 35px;
+}
+
+.btn {
+    border-radius: 25px;
+    padding: 15px 30px;
+    font-size: 1.05rem;
+    font-weight: bolder;
+    transition: .2s;
+}
+
+.btn:hover,
+.lbtn:hover {
+    cursor: pointer;
+    scale: 1.06;
+    opacity: .8;
+}
+
+.bx-chevron-left,
+.bx-chevron-right {
+    font-size: 35px;
+    position: relative;
+    top: 15px;
+
+}
+
+.bx-search {
+    font-size: 20px;
+    position: relative;
+    top: 6px;
+    left: 40px;
+}
+
+.search-btn {
+    border: none;
+    background-color: rgb(63, 61, 61);
+    width: 400px;
+    padding: 15px 40px;
+    border-radius: 25px;
+}
+
+.navbar #sing {
+    background-color: inherit;
+    border: none;
+}
+
+.navbar #log-in {
+    color: black;
+}
+
+/* borwse all section */
+.right {
+    /* overflow-y: scroll; */
+}
+
+.browse-all {
+    margin: 8px 8px 0px 0px;
+    padding: 25px 25px 0px 25px;
+    background-color: #1a1a1a;
+
+}
+
+
+/* cart section */
+.card-container {
+    display: grid;
+    grid-template-columns: 260px 260px 260px 260px;
+    justify-content: space-between;
+}
+
+.cart {
+    border-radius: 8px;
+    overflow: hidden;
+    position: relative;
+    width: 260px;
+    height: 160px;
+    margin-top: 15px;
+}
+
+.cart h2 {
+    padding: 15px;
+    width: 60%;
+}
+
+.cart img {
+    position: relative;
+    rotate: 30deg;
+    float: right;
+    width: 130px;
+    right: -20px;
+    bottom: 10px;
+}
+
+.cart-1 {
+    background-color: rgb(0, 100, 80);
+}
+
+.cart-2 {
+    background-color: rgb(132, 0, 231);
+}
+
+.cart-3 {
+    background-color: rgb(30, 50, 100);
+}
+
+.cart-4 {
+    background-color: rgb(232, 17, 91);
+}
+
+.cart-5 {
+    background-color: rgb(220, 20, 140);
+}
+
+.cart-6 {
+    background-color: rgb(176, 40, 151);
+}
+
+.cart-7 {
+    background-color: rgb(165, 103, 82);
+}
+
+.cart-8 {
+    background-color: rgb(119, 119, 119);
+}
+
+.cart-9 {
+    background-color: rgb(13, 115, 236);
+}
+
+.cart-10 {
+    background-color: rgb(142, 102, 172);
+}
+
+.cart-11 {
+    background-color: rgb(225, 51, 0);
+}
+
+.cart-12 {
+    background-color: rgb(119, 119, 119);
+}
+
+
+/* bottom-section  */
+.bottom-section {
+    padding: 10px 20px;
+    margin: 8px;
+    background-image: linear-gradient(90deg, #af2896, #509bf5);
+    display: flex;
+    justify-content: space-between;
+}
+
+.bottom-section button {
+    border: none;
+    color: black;
+    background-color: white;
+}
